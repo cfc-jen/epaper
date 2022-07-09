@@ -681,7 +681,7 @@ input[type=text] {
 .flexul {
   display: flex;
   justify-content: space-between;
-  width: 85%;
+  width: 100%;
 }
 
 .flexulleft {
@@ -705,7 +705,7 @@ input[type=text] {
 }
 
 h3 {
-  color: #3a3333;
+  color: #726b6b;
 }
 
 h5 {
@@ -714,31 +714,32 @@ h5 {
 }
 
 h6 {
-  font-weight: 400;
+  color: #b3a2a2;
+  font-weight: bold;
 }
 
 .font10 {
   text-align: center;
-  font-size: xx-small;
-  width: 85%;
+  font-size: medium;
+  width: 100%;
   color: black;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .font10left {
   text-align: left;
-  font-size: xx-small;
+  font-size: medium;
   width: 30%;
   color: black;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .font10right {
   margin: 10 5 5 0;
-  font-size: xx-small;
+  font-size: medium;
   width: auto;
   color: black;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6, ul, p {
@@ -759,7 +760,7 @@ nav ul {
   width: 85%;
   display: flex;
   justify-content: space-between;
-  font-size: smaller;
+  font-size: medium;
 }
 
 li {
@@ -771,7 +772,7 @@ a {
 }
 
 img {
-  width: 85%;
+  width: 100%;
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -792,4 +793,19 @@ img {
   border-radius: 3px;
   text-align: center;
   padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+tr:hover {
+  background-color: #D6EEEE;
 }
